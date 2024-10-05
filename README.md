@@ -11,5 +11,5 @@ a collection of RAG papers, tools, etc
 |[Awesome-LLM-with-RAG](https://github.com/WangRongsheng/Awesome-LLM-with-RAG)|Yes| Partial ||| |
 |[RAG-Survey](https://github.com/Tongji-KGLLM/RAG-Survey)|Yes| Yes |Partial|| |
 |[OpenRAG Base](https://openrag.notion.site/Open-RAG-c41b2a4dcdea4527a7c1cd998e763595)|Yes| Yes |Yes|Yes| |
-|[Awesome-RAG](https://github.com/Danielskry/Awesome-RAG)|Yes| Yes |Yes|Yes| |
+|[Awesome-RAG](https://github.com/Danielskry/Awesome-RAG)|Yes| Yes |Yes| | Yes|
 |[awesome-llm-reader](https://github.com/HITsz-TMG/awesome-llm-reader)|Yes|  ||| |
