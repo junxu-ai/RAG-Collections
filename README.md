@@ -1,5 +1,5 @@
-# RAG-Collections
-a collection of RAG papers, tools, etc
+# [WIP] RAG-Collections
+This is a summarized collection of RAG papers, tutorials, tools, applications and databases from multiple repositories with latest update. 
 
 # Existing Repositories
 
@@ -20,11 +20,12 @@ a collection of RAG papers, tools, etc
 
 # Tools
 ## General LLM
-LangChain, 
-Llamaindex 
-Haystack, 
-Hugging Face Transformers
-Semantic Kernel by Microsoft  : It is an open-source project developed by Mi-crosoft, designed to facilitate the integration of LLMs with existing software applica-tions. The core idea behind Semantic Kernel is to provide a framework that allows de-velopers to easily create, orchestrate, and customize workflows around LLMs by utiliz-ing a variety of skills like prompt chaining, memory, and learning capabilities. The tool enables developers to embed LLM capabilities directly into their applications while maintaining flexibility and control. It is highly customizable and supports a modular approach, allowing users to combine different AI services and integrate seamlessly with other Microsoft tools like Azure AI and OpenAI. In essence, Semantic Kernel helps streamline LLM-based operations in enterprise or software development con-texts.
+- [LangChain](https://python.langchain.com/): It is a framework for developing applications powered by LLMs.It contains a versatile Python library that simplifies the development of applications involving LLMS and RAG implementations. It features a modular architecture, allowing developers to integrate various components such as retrieval systems and knowledge bases easily. One of its standout features is memory management, enabling models to maintain conversational context across interactions. LangChain supports a wide range of pre-trained models and offers seamless integration with structured databases and unstructured text data. 
+
+- [Llamaindex](https://github.com/run-llama/llama_index): it is a data framework for your LLM application. Building with LlamaIndex typically involves working with LlamaIndex core and a chosen set of integrations (or plugins). Its Python library is namespaced such that import statements which include core imply that the core package is being used. In contrast, those statements without core imply that an integration package is being used.
+- [Haystack](https://haystack.deepset.ai/): It  is an open-source framework developed by Deepset for building end-to-end question-answering systems that utilize RAG techniques. It includes components for document stores, retrievers, and generators, allowing developers to create sophisticated applications that combine retrieval and generation capabilities efficiently. Haystack is particularly useful for creating applications that require in-depth natural language processing with substantial knowledge integration.
+- [Hugging Face Transformers](https://huggingface.co/docs/transformers/index): This library provides a wide array of pre-trained models for various natural language processing tasks, including RAG implementations. Hugging Face Transformers supports both retrieval and generation tasks, allowing developers to leverage state-of-the-art language models easily. The library is highly extensible and integrates well with other tools and frameworks, making it a popular choice for building AI applications.
+- [Semantic Kernel by Microsoft](https://github.com/microsoft/semantic-kernel): It is an open-source project developed by Microsoft, designed to facilitate the integration of LLMs with existing software applica-tions. The core idea behind Semantic Kernel is to provide a framework that allows de-velopers to easily create, orchestrate, and customize workflows around LLMs by utiliz-ing a variety of skills like prompt chaining, memory, and learning capabilities. The tool enables developers to embed LLM capabilities directly into their applications while maintaining flexibility and control. It is highly customizable and supports a modular approach, allowing users to combine different AI services and integrate seamlessly with other Microsoft tools like Azure AI and OpenAI. In essence, Semantic Kernel helps streamline LLM-based operations in enterprise or software development con-texts.
 
 ## Specific RAG
 
