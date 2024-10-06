@@ -5,17 +5,18 @@ This is a summarized collection of RAG papers, tutorials, tools, applications an
 
 |Repository|Papers|Workshops/Tutorials|Tools|Applications|Database|
 |---------------------|------------------|-------------------|----------------------|--------------|-----|
-|[Awesome-LLM-RAG](https://github.com/jxzhangjhu/Awesome-LLM-RAG)|Yes|Yes| | |  |
-|[*Awesome-RAG](https://github.com/frutik/Awesome-RAG)|Yes|  |Partial|partial| |
+|[Awesome-LLM-RAG](https://github.com/jxzhangjhu/Awesome-LLM-RAG)  ![GitHub Repo stars](https://img.shields.io/github/stars/jxzhangjhu/Awesome-LLM-RAG?style=social) [![GitHub last commit](https://img.shields.io/github/last-commit/jxzhangjhu/Awesome-LLM-RAG)](https://github.com/jxzhangjhu/Awesome-LLM-RAG)|Yes*|Yes*| | |  |
+|[*Awesome-RAG](https://github.com/frutik/Awesome-RAG)|Yes| Yes* |Partial|partial| |
 |[awesome-rag](https://github.com/coree/awesome-rag)|Yes| Yes |Partial|| |
 |[Awesome-LLM-with-RAG](https://github.com/WangRongsheng/Awesome-LLM-with-RAG)|Yes| Partial ||| |
-|[*RAG-Survey](https://github.com/Tongji-KGLLM/RAG-Survey)|Yes| Yes |Partial|| |
-|[*OpenRAG Base](https://openrag.notion.site/Open-RAG-c41b2a4dcdea4527a7c1cd998e763595)|Yes| Yes |Yes|Yes| |
-|[Awesome-RAG](https://github.com/Danielskry/Awesome-RAG)|Yes| Yes |Yes| | Yes|
+|[*RAG-Survey](https://github.com/Tongji-KGLLM/RAG-Survey)![GitHub Repo stars](https://img.shields.io/github/stars/Tongji-KGLLM/RAG-Survey?style=social) [![GitHub last commit](https://img.shields.io/github/last-commit/Tongji-KGLLM/RAG-Survey)](https://github.com/Tongji-KGLLM/RAG-Survey)|Yes*| Yes* |Partial|| |
+|[*OpenRAG Base](https://openrag.notion.site/Open-RAG-c41b2a4dcdea4527a7c1cd998e763595)|Yes*| Yes* |Yes|Yes*| |
+|[Awesome-RAG](https://github.com/Danielskry/Awesome-RAG)|Yes*| Yes* |Yes| | Yes|
 |[awesome-llm-reader](https://github.com/HITsz-TMG/awesome-llm-reader)|Yes|  ||| |
 |[Awesome RAG](https://github.com/run-llama/awesome-rag)|Yes|  ||| |
-|[Awesome-RAG](https://github.com/lucifertrj/Awesome-RAG)|| Yes |Yes|| |
-
+|[Awesome-RAG](https://github.com/lucifertrj/Awesome-RAG)![GitHub Repo stars](https://img.shields.io/github/stars/lucifertrj/Awesome-RAG?style=social) [![GitHub last commit](https://img.shields.io/github/last-commit/lucifertrj/Awesome-RAG)](https://github.com/lucifertrj/Awesome-RAG)|| Yes |Yes*|| |
+|[awesome-papers-for-rag](https://github.com/gomate-community/awesome-papers-for-rag)![GitHub Repo stars](https://img.shields.io/github/stars/gomate-community/awesome-papers-for-rag?style=social) [![GitHub last commit](https://img.shields.io/github/last-commit/gomate-community/awesome-papers-for-rag)](https://github.com/gomate-community/awesome-papers-for-rag)|| Yes* ||| |
+|[RAG-Survey](https://github.com/hymie122/RAG-Survey)![GitHub Repo stars](https://img.shields.io/github/stars/hymie122/RAG-Survey?style=social) [![GitHub last commit](https://img.shields.io/github/last-commit/hymie122/RAG-Survey)](https://github.com/hymie122/RAG-Survey)|| Yes* ||| |
 
 
 # Tools
@@ -26,6 +27,8 @@ This is a summarized collection of RAG papers, tutorials, tools, applications an
 - [Haystack](https://haystack.deepset.ai/): It  is an open-source framework developed by Deepset for building end-to-end question-answering systems that utilize RAG techniques. It includes components for document stores, retrievers, and generators, allowing developers to create sophisticated applications that combine retrieval and generation capabilities efficiently. Haystack is particularly useful for creating applications that require in-depth natural language processing with substantial knowledge integration.
 - [Hugging Face Transformers](https://huggingface.co/docs/transformers/index): This library provides a wide array of pre-trained models for various natural language processing tasks, including RAG implementations. Hugging Face Transformers supports both retrieval and generation tasks, allowing developers to leverage state-of-the-art language models easily. The library is highly extensible and integrates well with other tools and frameworks, making it a popular choice for building AI applications.
 - [Semantic Kernel by Microsoft](https://github.com/microsoft/semantic-kernel): It is an open-source project developed by Microsoft, designed to facilitate the integration of LLMs with existing software applica-tions. The core idea behind Semantic Kernel is to provide a framework that allows de-velopers to easily create, orchestrate, and customize workflows around LLMs by utiliz-ing a variety of skills like prompt chaining, memory, and learning capabilities. The tool enables developers to embed LLM capabilities directly into their applications while maintaining flexibility and control. It is highly customizable and supports a modular approach, allowing users to combine different AI services and integrate seamlessly with other Microsoft tools like Azure AI and OpenAI. In essence, Semantic Kernel helps streamline LLM-based operations in enterprise or software development con-texts.
+
+- [embedchain / mem0](https://github.com/mem0ai/mem0) ![GitHub Repo stars](https://img.shields.io/github/stars/mem0ai/mem0?style=social) [![GitHub last commit](https://img.shields.io/github/last-commit/mem0ai/mem0)](https://github.com/mem0ai/mem0): It enhances AI assistants and agents with an intelligent memory layer, enabling personalized AI interactions. Mem0 remembers user preferences, adapts to individual needs, and continuously improves over time, making it ideal for customer support chatbots, AI assistants, and autonomous systems. Mem0 leverages a hybrid database approach to manage and retrieve long-term memories for AI agents and assistants. Each memory is associated with a unique identifier, such as a user ID or agent ID, allowing Mem0 to organize and access memories specific to an individual or context.
 
 ## Specific RAG
 
@@ -42,6 +45,10 @@ This is a summarized collection of RAG papers, tutorials, tools, applications an
 - [AutoRAG](https://github.com/Marker-Inc-Korea/AutoRAG): This tool automatically identifies the best RAG pipeline for your specif-ic data and use case. With many RAG pipelines and modules available, manually test-ing them all is time-consuming and difficult. It simplifies this by automating the eval-uation of different module combinations, helping you quickly find the optimal solution based on your own evaluation data. Try it now to streamline your search for the best RAG pipeline.
 
 - [NeumAI by NeumTry](https://github.com/NeumTry/NeumAI): NeumAI is an open-source AI framework designed to of-fer a user-friendly platform for building and deploying ML/ AI models. The focus of NeumAI is to simplify AI model development by providing intuitive tools that mini-mize the complexity of setting up training environments, managing data, and scaling machine learning operations. The framework is built to be accessible for both beginners and experienced developers, emphasizing easy-to-understand APIs and modular com-ponents. NeumAI supports deep learning models and offers features that help with model optimization, experiment tracking, and collaborative AI development. It is de-signed to be highly flexible and adaptable for various AI applications, from research to production environments.
+- [llmware](https://github.com/llmware-ai/llmware) ![GitHub Repo stars](https://img.shields.io/github/stars/llmware-ai/llmware?style=social) [![GitHub last commit](https://img.shields.io/github/last-commit/llmware-ai/llmwarem)](https://github.com/llmware-ai/llmware): it provides a unified framework for building LLM-based applications (e.g, RAG, Agents), using small, specialized models that can be deployed privately, integrated with enterprise knowledge sources safely and securely, and cost-effectively tuned and adapted for any business process.
+- [beyondllm](https://github.com/aiplanethub/beyondllm) ![GitHub Repo stars](https://img.shields.io/github/stars/aiplanethub/beyondllm?style=social) [![GitHub last commit](https://img.shields.io/github/last-commit/aiplanethub/beyondllm)](https://github.com/aiplanethub/beyondllm): It offers an all-in-one toolkit for experimentation, evaluation, and deployment of RAG systems, simplifying the process with automated integration, customizable evaluation metrics, and support for various Large Language Models (LLMs) tailored to specific needs, ultimately aiming to reduce LLM hallucination risks and enhance reliability.
+- [MindSQL](https://github.com/Mindinventory/MindSQL) ![GitHub Repo stars](https://img.shields.io/github/stars/Mindinventory/MindSQL?style=social) [![GitHub last commit](https://img.shields.io/github/last-commit/Mindinventory/MindSQL)](https://github.com/Mindinventory/MindSQL): It is a Python RAG Library designed to streamline the interaction between users and their databases using just a few lines of code. With seamless integration for renowned databases such as PostgreSQL, MySQL, and SQLite, MindSQL also extends its capabilities to major databases like Snowflake and BigQuery by extending the IDatabase Interface. This library utilizes LLM like GPT-4, Llama 2, Google Gemini, and supports knowledge bases like ChromaDB and Faiss.
+
 
 
 
